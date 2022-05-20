@@ -1,0 +1,23 @@
+﻿<Window x:Class="ZdravoHospital.Windows.DoctorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoHospital.Windows"
+        mc:Ignorable="d"
+        Title="" Height="444" Width="322">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Name ="btn1" Content="Apps" HorizontalAlignment="Left" Height="51" Margin="0,35,0,0" Grid.Row="4" VerticalAlignment="Top" Width="135" Click="btn1_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="51" Margin="186,35,0,0" Grid.Row="4" VerticalAlignment="Top" Width="134"/>
+        <Frame Name="frejm" Content="" Margin="0,0,0,0" Grid.RowSpan="5" NavigationUIVisibility="Hidden"/>
+
+
+    </Grid>
+</Window>

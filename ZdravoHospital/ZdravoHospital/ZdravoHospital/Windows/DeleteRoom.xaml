@@ -1,0 +1,27 @@
+﻿<Window x:Class="ZdravoHospital.Windows.DeleteRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoHospital.Windows"
+        mc:Ignorable="d"
+        Title="DeleteRoom" Height="407.336" Width="611.286">
+    <Grid Margin="0,0,3.8,-0.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label FontSize="20" Content="Are you sure you want to delete this room?" HorizontalAlignment="Right" Margin="0,9.8,30.8,20.4" Grid.Row="2" VerticalAlignment="Center" Height="45" Width="481" Grid.ColumnSpan="3"/>
+        <Button FontSize="20" Content="No" HorizontalAlignment="Left" Margin="60,9.6,0,0" Grid.Row="4" VerticalAlignment="Top" Width="131" Height="53" Click="Button_Click_No"/>
+        <Button FontSize="20" Content="Yes" HorizontalAlignment="Left" Margin="10.4,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="131" Height="53" Grid.Column="2" Click="Button_Click_Yes"/>
+
+    </Grid>
+</Window>

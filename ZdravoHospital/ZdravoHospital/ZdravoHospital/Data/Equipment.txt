@@ -1,0 +1,1 @@
+[{"Id":"E1","Name":"Chair","RoomId":"R1","Quantity":4,"EquipmentType":0},{"Id":"E2","Name":"Bandages","RoomId":"R2","Quantity":2,"EquipmentType":1},{"Id":"E3","Name":"Table","RoomId":"R3","Quantity":1,"EquipmentType":0},{"Id":"E1","Name":"Table","RoomId":"R1","Quantity":1,"EquipmentType":0}]

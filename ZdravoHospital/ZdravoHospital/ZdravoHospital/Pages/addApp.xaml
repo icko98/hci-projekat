@@ -1,0 +1,33 @@
+﻿<Page x:Class="ZdravoHospital.Pages.addApp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoHospital.Pages"
+      mc:Ignorable="d"
+      Title="addApp" Height="335" Width="300">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+
+        </Grid.RowDefinitions>
+        <Label FontSize="20" Content="PatientId" HorizontalAlignment="Left" Margin="8,28,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57" Grid.ColumnSpan="2"/>
+        <Label FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Grid.Row="1" Margin="10,30,0,0"/>
+        <Label FontSize="20" Content="Duration" HorizontalAlignment="Left" Margin="16,0,0,0" VerticalAlignment="Center" Height="50" Width="116" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <TextBox Name="PId" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Grid.ColumnSpan="2" Margin="44,28,0,0" Grid.Column="1" />
+        <TextBox Name="Duration" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Center" Width="145" Grid.Row="2" Grid.ColumnSpan="2" Margin="46,0,0,0" Grid.Column="1" />
+        <Button Content="No" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="99" Height="50" Click="ButN"/>
+        <Button Content="Yes" Name="ButtonYes" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="101" Grid.Column="2" Height="50" Click="ButY"/>
+        <DatePicker Name ="nzm" HorizontalAlignment="Left" Margin="44,25,0,0" Grid.Row="1" VerticalAlignment="Top" Height="63" Width="156" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE" Grid.ColumnSpan="2" Grid.Column="1"/>
+    </Grid>
+</Page>

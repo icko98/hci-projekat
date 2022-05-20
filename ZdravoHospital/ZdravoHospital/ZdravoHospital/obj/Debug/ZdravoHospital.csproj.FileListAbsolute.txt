@@ -1,0 +1,370 @@
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csprojAssemblyReference.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\EliteBook\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.baml
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.g.cs
+C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\DocApps.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.AssemblyReference.cache
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\DocMenu.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\DocMenu.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeletePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditPatient.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\LogIn.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerOptions.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\DelApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\DelApp.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\addApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\addApp.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\changeApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\changeApp.baml

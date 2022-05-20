@@ -1,0 +1,44 @@
+﻿<Page x:Class="ZdravoHospital.Pages.DocMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoHospital.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450"
+      Title="DocMenu" Width="300">
+
+    <Grid Margin="0,0,0,81">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Name="appTable" ItemsSource="{Binding Path=Xapps, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedApp, Mode=TwoWay}" ColumnWidth="*" Height="315" Margin="6,61,6,0" VerticalAlignment="Top"  Grid.RowSpan="5" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="PatientID" Binding="{Binding PatientID}" />
+                <DataGridTextColumn Header="Date" Binding="{Binding Dt}"/>
+                <DataGridTextColumn Header="Duration" Binding="{Binding Duration}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="169,19,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_DAdd" Height="37"/>
+        <Button Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Click="Button_Click_DEdit" Height="37" Margin="26,19,0,0"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="226,19,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click_DDelete" Height="37"/>
+        <Button Content="File" HorizontalAlignment="Left" Margin="99,18,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click_File" Height="37" RenderTransformOrigin="0.49,0.434">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.577"/>
+                    <TranslateTransform X="0.023" Y="-0.005"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
+    </Grid>
+</Page>

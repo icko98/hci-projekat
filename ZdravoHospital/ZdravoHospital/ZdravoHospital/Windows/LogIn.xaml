@@ -1,0 +1,17 @@
+﻿<Window x:Class="ZdravoHospital.Windows.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoHospital.Windows"
+        mc:Ignorable="d"
+        Title="LogIn" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="187,171,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="71"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="187,233,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="71"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="33" Margin="324,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Height="33" Margin="314,325,0,0" VerticalAlignment="Top" Width="86" Click="Submit_Click"/>
+        <PasswordBox x:Name="pass" HorizontalAlignment="Left" Height="28" Margin="324,233,0,0" VerticalAlignment="Top" Width="135"/>
+
+    </Grid>
+</Window>
