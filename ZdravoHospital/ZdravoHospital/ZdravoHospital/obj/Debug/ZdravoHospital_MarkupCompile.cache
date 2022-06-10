@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
 ZdravoHospital
 none
 false
 DEBUG;TRACE
-C:\Users\Ilija\Desktop\SIMSproj - Copy\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
-27-248015551
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
+30-1141062890
 
-71187748954
-141466747959
-MainWindow.xaml;Pages\addApp.xaml;Pages\changeApp.xaml;Pages\DelApp.xaml;Pages\DocMenu.xaml;Windows\BasicRenovationWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateReport.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\EditReport.xaml;Windows\EquipmentWindow.xaml;Windows\File.xaml;Windows\LogIn.xaml;Windows\ManagerOptions.xaml;Windows\RelocateWindow.xaml;Windows\RelocationWIndow.xaml;Windows\ScheduleRenovation.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
+791921952124
+141117659874
+MainWindow.xaml;Pages\addApp.xaml;Pages\addRep.xaml;Pages\changeApp.xaml;Pages\changeReport.xaml;Pages\DelApp.xaml;Pages\DocMenu.xaml;Pages\File.xaml;Pages\Vac.xaml;Windows\BasicRenovationWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateReport.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\EditReport.xaml;Windows\EquipmentWindow.xaml;Windows\LogIn.xaml;Windows\ManagerOptions.xaml;Windows\RelocateWindow.xaml;Windows\RelocationWIndow.xaml;Windows\ScheduleRenovation.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
 False
 

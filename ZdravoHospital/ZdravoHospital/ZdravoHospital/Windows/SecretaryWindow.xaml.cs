@@ -2,6 +2,8 @@
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.ComponentModel;
+using Model;
+
 namespace ZdravoHospital.Windows
 {
     /// <summary>
@@ -10,16 +12,16 @@ namespace ZdravoHospital.Windows
     public partial class SecretaryWindow : Window
     {
         public static PatientController patientController = new PatientController();
-        public ObservableCollection<Model.Patient> Xpatients { get; set; }
+        public ObservableCollection<Patient> Xpatients { get; set; }
 
-        public static Model.Patient SelectedPatient { get; set; }
+        public static Patient SelectedPatient { get; set; }
         public SecretaryWindow()
         {
             InitializeComponent();
             this.DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterOwner;
 
-            Xpatients = new ObservableCollection<Model.Patient>(patientController.GetPatients());
+            Xpatients = new ObservableCollection<Patient>(patientController.GetPatients());
         }
         private static SecretaryWindow windowInst;
 

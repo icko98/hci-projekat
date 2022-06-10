@@ -90,12 +90,16 @@ namespace ZdravoHospital.Pages
                 return;
 
             }
-            File patFile = new File();
+            File patFile = new File(SelectedApp.PatientID, doctorWindow);
+            doctorWindow.frejm.Content = patFile;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+       
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Vac vac = new Vac();
+            doctorWindow.frejm.Content = vac;
         }
     }
 }

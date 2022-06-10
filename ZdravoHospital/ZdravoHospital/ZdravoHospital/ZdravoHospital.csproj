@@ -64,12 +64,14 @@
     <Compile Include="Controller\PatientController.cs" />
     <Compile Include="Controller\RelocateEquipmentController.cs" />
     <Compile Include="Controller\ReportController.cs" />
+    <Compile Include="Controller\VacController.cs" />
     <Compile Include="FileHandler\AppFileHandler.cs" />
     <Compile Include="FileHandler\BasicRenovationFileHandler.cs" />
     <Compile Include="FileHandler\EquipmentFileHandler.cs" />
     <Compile Include="FileHandler\PatientFileHandler.cs" />
     <Compile Include="FileHandler\RelocateEquipmentFileHandler.cs" />
     <Compile Include="FileHandler\ReportFileHandler.cs" />
+    <Compile Include="FileHandler\VacFileHandler.cs" />
     <Compile Include="Model\App.cs" />
     <Compile Include="Model\BasicRenovation.cs" />
     <Compile Include="Model\Equipment.cs" />
@@ -79,17 +81,30 @@
     <Compile Include="Model\Perscription.cs" />
     <Compile Include="Model\RelocateEquipment.cs" />
     <Compile Include="Model\Report.cs" />
+    <Compile Include="Model\Vac.cs" />
     <Compile Include="Pages\addApp.xaml.cs">
       <DependentUpon>addApp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\addRep.xaml.cs">
+      <DependentUpon>addRep.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\changeApp.xaml.cs">
       <DependentUpon>changeApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\changeReport.xaml.cs">
+      <DependentUpon>changeReport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\DelApp.xaml.cs">
       <DependentUpon>DelApp.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\DocMenu.xaml.cs">
       <DependentUpon>DocMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\File.xaml.cs">
+      <DependentUpon>File.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Vac.xaml.cs">
+      <DependentUpon>Vac.xaml</DependentUpon>
     </Compile>
     <Compile Include="Repository\AppRepository.cs" />
     <Compile Include="Repository\BasicRenovationRepository.cs" />
@@ -98,6 +113,7 @@
     <Compile Include="Repository\RelocateEquipmentRepository.cs" />
     <Compile Include="Repository\ReportRepository.cs" />
     <Compile Include="Repository\RoomRepository.cs" />
+    <Compile Include="Repository\VacRepository.cs" />
     <Compile Include="Service\AppService.cs" />
     <Compile Include="Service\BasicRenovationService.cs" />
     <Compile Include="Service\EquipmentService.cs" />
@@ -105,6 +121,7 @@
     <Compile Include="Service\RelocateEquipmentService.cs" />
     <Compile Include="Service\ReportService.cs" />
     <Compile Include="Service\RoomService.cs" />
+    <Compile Include="Service\VacService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />
     <Compile Include="Windows\BasicRenovationWindow.xaml.cs">
       <DependentUpon>BasicRenovationWindow.xaml</DependentUpon>
@@ -138,9 +155,6 @@
     </Compile>
     <Compile Include="Windows\EquipmentWindow.xaml.cs">
       <DependentUpon>EquipmentWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\File.xaml.cs">
-      <DependentUpon>File.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\LogIn.xaml.cs">
       <DependentUpon>LogIn.xaml</DependentUpon>
@@ -190,7 +204,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\addRep.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\changeApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\changeReport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -199,6 +221,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\DocMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\File.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Vac.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -243,10 +273,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\EquipmentWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\File.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

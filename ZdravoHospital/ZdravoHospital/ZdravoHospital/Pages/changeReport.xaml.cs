@@ -10,40 +10,42 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ZdravoHospital.Pages;
 
-namespace ZdravoHospital.Windows
+namespace ZdravoHospital.Pages
 {
     /// <summary>
-    /// Interaction logic for EditReport.xaml
+    /// Interaction logic for changeReport.xaml
     /// </summary>
-    public partial class EditReport : Window
+    public partial class changeReport : Page
     {
-        string tes;
-        string tts;
-        public EditReport()
+        string str1;
+        string str2;
+        File df;
+
+        public changeReport(File fajl)
         {
             InitializeComponent();
-            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             this.DataContext = this;
+            df = fajl;
             Model.Report xrep = File.SelectedReport;
-            tes = xrep.Jmbg;
-            tts = xrep.Id.ToString();
+            str1 = xrep.Jmbg;
+            str2 = xrep.Id.ToString();
             nzm.SelectedDate = xrep.Dt;
             Desc.Text = xrep.Desc;
-            Show();
         }
+
         private void Button_Doc_N(object sender, RoutedEventArgs e)
         {
-            Close();
+            this.NavigationService.GoBack();
         }
+
         private void Button_Doc_Y(object sender, RoutedEventArgs e)
         {
-            File.repController.Update(new Model.Report(tts, nzm.SelectedDate.Value, Desc.Text, tes));
-            // OVDE
-            //File.GetPatientFile().refreshRepTable();
-            Close();
+            File.repController.Update(new Model.Report(str2, nzm.SelectedDate.Value, Desc.Text, str1));
+            df.refreshRepTable();
+            this.NavigationService.GoBack();
         }
     }
 }

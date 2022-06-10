@@ -1,4 +1,5 @@
 ﻿using Controller;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,36 +12,45 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ZdravoHospital.Pages;
 
-namespace ZdravoHospital.Windows
+namespace ZdravoHospital.Pages
 {
     /// <summary>
-    /// Interaction logic for CreateReport.xaml
+    /// Interaction logic for addRep.xaml
     /// </summary>
-    public partial class CreateReport : Window
+    public partial class addRep : Page
     {
         public static PatientController patController = new PatientController();
-        Model.Patient xpat = new Model.Patient();
-        public CreateReport()
+        Patient xpat = new Patient();
+        File dfjl;
+        public addRep(Patient modpat, File fajl)
         {
             InitializeComponent();
-            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             this.DataContext = this;
-            xpat = patController.GetById(DoctorWindow.SelectedApp.PatientID);
-            Show();
+            xpat = modpat;
+            dfjl = fajl;
+
         }
+
         private void Button_Doc_N(object sender, RoutedEventArgs e)
         {
-            Close();
+            this.NavigationService.GoBack();
         }
+
         private void Button_Doc_Y(object sender, RoutedEventArgs e)
         {
-            File.repController.Create(new Model.Report(nzm.SelectedDate.Value, Desc.Text, xpat.jmbg));
-            //OVDE
-            //File.GetPatientFile().refreshRepTable();
-            Close();
+            File.repController.Create(new Report(nzm.SelectedDate.Value, Desc.Text, xpat.jmbg));
+            dfjl.refreshRepTable();
+            if (this.NavigationService.CanGoBack)
+            {
+                this.NavigationService.GoBack();
+            }
+            else
+            {
+                MessageBox.Show("No entries in back navigation history.");
+            }
         }
     }
 }
