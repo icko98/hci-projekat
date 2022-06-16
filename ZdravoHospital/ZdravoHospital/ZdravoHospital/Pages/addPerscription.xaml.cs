@@ -23,17 +23,24 @@ namespace ZdravoHospital.Pages
     public partial class addPerscription : Page
     {
         public ObservableCollection<Medication> nMeds;
-        public static Medication selectedMed;
-        public addPerscription(ObservableCollection<Medication> meds)
+        public static Medication selectedMed { get; set; }
+        private addRep adr;
+        public addPerscription(addRep addrep)
         {
             InitializeComponent();
-            nMeds = meds;
+            this.DataContext = this;
+            nMeds = Medlists.Instance.getCmedication();
+            adr = addrep;
+            medsTable.ItemsSource = null;
+            medsTable.ItemsSource = nMeds.ToList();
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            adr.Xpers.Add(selectedMed);
+            adr.refreshTables();
+            this.NavigationService.GoBack();
         }
     }
 }

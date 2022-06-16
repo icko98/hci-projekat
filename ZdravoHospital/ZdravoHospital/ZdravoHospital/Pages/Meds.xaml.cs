@@ -28,12 +28,12 @@ namespace ZdravoHospital.Pages
         public static Medication SelectedMed2 { get; set; }
 
 
-        public Meds(ObservableCollection<Medication> meds1, ObservableCollection<Medication> meds2)
+        public Meds()
         {
             InitializeComponent();
             this.DataContext = this;
-            TBAmedication = meds1;
-            CMedication = meds2;
+            TBAmedication = Medlists.Instance.getTBAmedication();
+            CMedication = Medlists.Instance.getCmedication();
 
             refreshTables();
         }
@@ -46,13 +46,15 @@ namespace ZdravoHospital.Pages
         {
             TBAmeds.ItemsSource = null;
             CMeds.ItemsSource = null;
+            TBAmedication = Medlists.Instance.getTBAmedication();
+            CMedication = Medlists.Instance.getCmedication();
             TBAmeds.ItemsSource = TBAmedication.ToList();
             CMeds.ItemsSource = CMedication.ToList();
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CMedication.Add(SelectedMed);
-            TBAmedication.Remove(SelectedMed);
+            Medlists.Instance.AddToCmedication(SelectedMed);
+            Medlists.Instance.RemoveFromTBA(SelectedMed);
             refreshTables();
         }
     }

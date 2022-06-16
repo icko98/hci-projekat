@@ -26,7 +26,7 @@ namespace ZdravoHospital.Pages
         public static PatientController patController = new PatientController();
         Patient xpat = new Patient();
         File dfjl;
-        ObservableCollection<Medication> Xpers;
+        public ObservableCollection<Medication> Xpers;
         public static Medication SelectedMed { get; set; }
         public addRep(Patient modpat, File fajl)
         {
@@ -66,8 +66,8 @@ namespace ZdravoHospital.Pages
 
         private void Button_Doc_add(object sender, RoutedEventArgs e)
         {
-           // addPerscription addper = new addPerscription();
-           // this.NavigationService.Navigate(addper);
+           addPerscription addper = new addPerscription(this);
+           this.NavigationService.Navigate(addper);
         }
     }
 }

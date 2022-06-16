@@ -9,8 +9,12 @@
       Title="addPerscription">
 
     <Grid>
-        <DataGrid Name="medsTable" ItemsSource="{Binding Path=nMeds , Mode=TwoWay}" SelectedItem="{Binding Path=SelectedMed, Mode=TwoWay}" Margin="5,10,5,176"/>
-        <Button Content="Add medication" HorizontalAlignment="Center" Margin="0,203,0,0" VerticalAlignment="Top" Height="41" Width="194" Click="Button_Click"/>
+        <DataGrid Name="medsTable" ItemsSource="{Binding Path=nMeds , Mode=TwoWay}" SelectedItem="{Binding Path=selectedMed, Mode=TwoWay}" Margin="5,10,5,176">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Add medication" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Height="41" Width="194" Click="Button_Click"/>
 
     </Grid>
 </Page>

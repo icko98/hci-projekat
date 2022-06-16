@@ -30,18 +30,21 @@ namespace ZdravoHospital.Pages
         {
             InitializeComponent();
             DoctorWindow = WINDOW;
-            aTBAmedication = new ObservableCollection<Medication>();
-            aTBAmedication.Add(new Medication("1", "Brufen"));
-            aTBAmedication.Add(new Medication("2", "Insulin"));
-            aTBAmedication.Add(new Medication("3", "Andol"));
-            aTBAmedication.Add(new Medication("4", "Bromazepam"));
+
+            Medlists.Instance.AddToTBAmedication(new Medication("1", "Brufen"));
+            Medlists.Instance.AddToTBAmedication(new Medication("2", "Insulin"));
+            Medlists.Instance.AddToTBAmedication(new Medication("3", "Andol"));
+            Medlists.Instance.AddToTBAmedication(new Medication("4", "Bromazepam"));
+
+            Medlists.Instance.AddToCmedication(new Medication("1", "Nesto"));
+            Medlists.Instance.AddToCmedication(new Medication("2", "Lek"));
+            Medlists.Instance.AddToCmedication(new Medication("3", "Patozin"));
+            Medlists.Instance.AddToCmedication(new Medication("4", "Smetorin"));
 
 
-            aCMedication = new ObservableCollection<Medication>();
-            aCMedication.Add(new Medication("1", "Nesto"));
-            aCMedication.Add(new Medication("2", "Lek"));
-            aCMedication.Add(new Medication("3", "Patozin"));
-            aCMedication.Add(new Medication("4", "Smetorin"));
+
+
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -51,7 +54,7 @@ namespace ZdravoHospital.Pages
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            DoctorWindow.frejm.Content = new Meds(aTBAmedication, aCMedication);
+            DoctorWindow.frejm.Content = new Meds();
         }
     }
 }
