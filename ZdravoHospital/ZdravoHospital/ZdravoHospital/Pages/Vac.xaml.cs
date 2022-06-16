@@ -1,4 +1,5 @@
 ﻿using Controller;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,27 @@ namespace ZdravoHospital.Pages
         {
             InitializeComponent();
             this.DataContext = this;
+            vac = vc.GetById(User.UserName);
+            if (vac != null)
+            {
+                name.Text = User.UserName;
+                duration.Text = vac.NumOfDays.ToString();
+                if (vac.IsReviewed == true)
+                {
+                    if (vac.IsAccepted == true)
+                    {
+                        status.Text = "Accepted";
 
+                    }
+                    else
+                    {
+                        status.Text = "Denied";
+                    }
+                }
+                nzm.SelectedDate = vac.StartDate;
+
+
+            }
         }
 
         private void Button_Doc_Y(object sender, RoutedEventArgs e)

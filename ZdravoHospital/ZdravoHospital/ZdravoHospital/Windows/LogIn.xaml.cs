@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Model;
 
 namespace ZdravoHospital.Windows
 {
@@ -43,6 +44,13 @@ namespace ZdravoHospital.Windows
                 else if(pass.Password == "1234" && username.Text == "Doctor")
                 {
                     DoctorWindow doctorWindow = DoctorWindow.GetDoctorWindow();
+                    User.UserName = username.Text;
+                    doctorWindow.Show();
+                }
+                else if (pass.Password == "1234" && username.Text == "Marija")
+                {
+                    DoctorWindow doctorWindow = DoctorWindow.GetDoctorWindow();
+                    User.UserName = username.Text;
                     doctorWindow.Show();
                 }
                 else

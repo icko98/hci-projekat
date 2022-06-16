@@ -101,6 +101,12 @@ namespace ZdravoHospital.Pages
             Vac vac = new Vac();
             doctorWindow.frejm.Content = vac;
         }
+
+        private void Button_Click_meds(object sender, RoutedEventArgs e)
+        {
+            //Meds meds = new Meds();
+            //doctorWindow.frejm.Content = meds;
+        }
     }
 }
 

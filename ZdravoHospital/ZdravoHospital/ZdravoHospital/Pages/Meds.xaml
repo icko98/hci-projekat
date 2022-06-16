@@ -1,0 +1,32 @@
+﻿<Page x:Class="ZdravoHospital.Pages.Meds"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoHospital.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="330" d:DesignWidth="300"
+      Title="Meds">
+
+    <Grid>
+        <DataGrid x:Name="TBAmeds" ItemsSource="{Binding TBAmedication, Mode=TwoWay}" SelectedItem="{Binding SelectedMed, Mode=TwoWay}" ColumnWidth="*" Height="109" Margin="2,26,54,0" VerticalAlignment="Top" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" SelectionChanged="appTable_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="CMeds" ItemsSource="{Binding CMedication, Mode=TwoWay}" SelectedItem="{Binding SelectedMed2, Mode=TwoWay}" ColumnWidth="*" Height="137" Margin="2,183,54,0" VerticalAlignment="Top" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Prihvati" HorizontalAlignment="Left" Margin="251,66,0,0" VerticalAlignment="Top" Click="Button_Click" Height="33" Width="39"/>
+        <Label Content="Lekovi koji cekaju na validaciju lekara"  HorizontalAlignment="Center" Margin="29,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.692,0.561" Width="237"/>
+        <Label Content="Lekovi koji se koriste"  HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.692,0.561" Width="237"/>
+
+    </Grid>
+</Page>

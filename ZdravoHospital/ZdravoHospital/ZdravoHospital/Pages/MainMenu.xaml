@@ -1,0 +1,16 @@
+﻿<Page x:Class="ZdravoHospital.Pages.MainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoHospital.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="330" d:DesignWidth="300"
+      Title="MainMenu">
+
+    <Grid>
+        <Button Content="Test" HorizontalAlignment="Center" VerticalAlignment="Top" Height="106" Width="152" Click="Button_Click" Margin="0,37,0,0"/>
+        <Button Content="meds" HorizontalAlignment="Left" Margin="74,191,0,0" VerticalAlignment="Top" Height="105" Width="122" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>

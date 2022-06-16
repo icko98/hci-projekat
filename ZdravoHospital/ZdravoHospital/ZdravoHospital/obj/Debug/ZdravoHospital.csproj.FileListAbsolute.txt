@@ -446,3 +446,9 @@ C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospita
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\changeReport.baml
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\Vac.g.cs
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\Vac.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\Meds.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\Meds.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\addPerscription.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\addPerscription.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\MainMenu.baml

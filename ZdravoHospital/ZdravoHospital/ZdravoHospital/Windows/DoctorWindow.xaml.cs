@@ -20,7 +20,7 @@ namespace ZdravoHospital.Windows
             InitializeComponent();
             this.DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterOwner;
-            frejm.Content = new DocMenu(this);
+            frejm.Content = new MainMenu(this);
 
 
         }

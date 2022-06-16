@@ -2,6 +2,7 @@
 using Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,15 +26,25 @@ namespace ZdravoHospital.Pages
         public static PatientController patController = new PatientController();
         Patient xpat = new Patient();
         File dfjl;
+        ObservableCollection<Medication> Xpers;
+        public static Medication SelectedMed { get; set; }
         public addRep(Patient modpat, File fajl)
         {
             InitializeComponent();
             this.DataContext = this;
             xpat = modpat;
             dfjl = fajl;
+            Xpers = new ObservableCollection<Medication>();
+            refreshTables();
+
 
         }
-
+        public void refreshTables()
+        {
+            persTable.ItemsSource = null;
+            persTable.ItemsSource = Xpers.ToList();
+            
+        }
         private void Button_Doc_N(object sender, RoutedEventArgs e)
         {
             this.NavigationService.GoBack();
@@ -51,6 +62,12 @@ namespace ZdravoHospital.Pages
             {
                 MessageBox.Show("No entries in back navigation history.");
             }
+        }
+
+        private void Button_Doc_add(object sender, RoutedEventArgs e)
+        {
+           // addPerscription addper = new addPerscription();
+           // this.NavigationService.Navigate(addper);
         }
     }
 }

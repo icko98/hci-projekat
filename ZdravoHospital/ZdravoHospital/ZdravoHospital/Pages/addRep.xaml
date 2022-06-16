@@ -10,11 +10,18 @@
 
     <Grid>
         <Label FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Margin="28,6,0,0"/>
-        <Label FontSize="20" Content="Description" HorizontalAlignment="Left" Margin="2,121,0,0" VerticalAlignment="Top" Height="50" Width="116"/>
-        <TextBox x:Name="Desc" HorizontalAlignment="Left" Height="166" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Margin="107,63,0,0" />
-        <Button Content="No" HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Doc_N"/>
+        <Label FontSize="20" Content="Description" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="Top" Height="50" Width="116"/>
+        <TextBox x:Name="Desc" HorizontalAlignment="Left" Height="97" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Margin="107,63,0,0" />
+        <Button Content="No" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="82" Height="46" Click="Button_Doc_N"/>
         <DatePicker x:Name ="nzm" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="183" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE" Margin="107,0,0,0"/>
-        <Button Content="Yes" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="179,258,0,0" VerticalAlignment="Top" Width="101" Height="50" Click="Button_Doc_Y"/>
+        <Button Content="Yes" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="203,283,0,0" VerticalAlignment="Top" Width="87" Height="42" Click="Button_Doc_Y"/>
+        <DataGrid Name="persTable" ItemsSource="{Binding Path=Xpers, Mode=TwoWay}" Margin="107,165,10,50" ColumnWidth="*">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label FontSize="20" Content="Perscriptions" HorizontalAlignment="Left" Margin="-7,172,0,0" VerticalAlignment="Top" Height="50" Width="123"/>
+        <Button Content="Add new medication" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="82" Height="46" Click="Button_Doc_add"/>
 
     </Grid>
 </Page>
