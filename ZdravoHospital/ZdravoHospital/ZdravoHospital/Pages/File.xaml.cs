@@ -36,12 +36,24 @@ namespace ZdravoHospital.Pages
             InitializeComponent();
             this.DataContext = this;
             mainWin = dw;
+            mainWin.windowLabel.Content = "Patient File";
             xpat = patientController.GetById(prepat);
-            tb1.Text = xpat.jmbg;
-            tb2.Text = xpat.name;
-            tb3.Text = xpat.surname;
-            tb4.Text = xpat.dateOfBirth;
-            Xreps = new ObservableCollection<Report>(repController.GetAllById(xpat.jmbg));
+            if(xpat == null)
+            {
+                tb1.Text = "ERROR";
+                tb2.Text = "this patient doesnt exist";
+                tb3.Text = "press the back button";
+                
+            }
+            else
+            {
+                tb1.Text = xpat.jmbg;
+                tb2.Text = xpat.name;
+                tb3.Text = xpat.surname;
+                tb4.Text = xpat.dateOfBirth;
+                Xreps = new ObservableCollection<Report>(repController.GetAllById(xpat.jmbg));
+            }
+            
             
         }
         public void refreshRepTable()
@@ -63,7 +75,7 @@ namespace ZdravoHospital.Pages
 
         private void Button_Click_Add(object sender, RoutedEventArgs e)
         {
-            addRep ar = new addRep(xpat, this);
+            addRep ar = new addRep(xpat, this, mainWin);
             mainWin.frejm.Content = ar;
             
 

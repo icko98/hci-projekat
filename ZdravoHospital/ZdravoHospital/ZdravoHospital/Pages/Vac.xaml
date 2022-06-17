@@ -9,16 +9,29 @@
       Title="Vac">
 
     <Grid>
-        <Label FontSize="20" Content="Start Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,71,0,0"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Doc_N"/>
-        <Button Content="Submit" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="171,257,0,0" VerticalAlignment="Top" Width="101" Height="50" Click="Button_Doc_Y"/>
-        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" Margin="150,71,0,0" VerticalAlignment="Top" Height="44" Width="137" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="ddddd" DisplayDate="07/10/2022 03:38:07" DisplayDateStart="07/10/2022 03:38:07"/>
-        <Label FontSize="20" Content="Duration" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,123,0,0"/>
-        <TextBox x:Name="duration" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="153,120,0,0" />
-        <Label FontSize="20" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="7,13,0,0"/>
-        <TextBox x:Name="name" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="150,10,0,0" />
-        <Label FontSize="20" Content="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,189,0,0"/>
-        <TextBox x:Name="status" HorizontalAlignment="Left" Text="Not Yet Reviewed" IsReadOnly = "True" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="153,183,0,0" />
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Start Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,90,0,0"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" Width="101" Background="#EF9F9F" Height="50" Foreground="#FCF9C6" Click="Button_Doc_N">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Submit" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="186,256,0,0" VerticalAlignment="Top" Width="101" Background="#FF9EB23B" Height="50" Foreground="#FCF9C6" Click="Button_Doc_Y">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" Margin="146,93,0,0" VerticalAlignment="Top" Background="#C7D36F" Foreground="#FFFCF9C6" Width="144"  Height="37" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="ddddd" DisplayDate="07/10/2022 03:38:07" DisplayDateStart="07/10/2022 03:38:07"/>
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Duration" HorizontalAlignment="Left" VerticalAlignment="Center" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,0,0,0"/>
+        <TextBox x:Name="duration" HorizontalAlignment="Left" Background="#C7D36F" Foreground="#FFFCF9C6" Width="144"  Height="37" TextWrapping="Wrap" VerticalAlignment="Top"  Margin="146,145,0,0" />
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,36,0,0"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Background="#C7D36F" Foreground="#FFFCF9C6" Width="144"  Height="37" TextWrapping="Wrap" VerticalAlignment="Top" Margin="146,40,0,0" />
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="120" RenderTransformOrigin="0.446,1.891" Margin="10,192,0,0"/>
+        <TextBox x:Name="status" HorizontalAlignment="Left" Text="Not Yet Reviewed" IsReadOnly = "True" Background="#C7D36F" Foreground="#FFFCF9C6" Width="144"  Height="37" TextWrapping="Wrap" VerticalAlignment="Top"  Margin="146,196,0,0" />
+        <Label Content="         Vacation request" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Width="280" Foreground="#FF191D03" FontSize="22"/>
 
     </Grid>
 </Page>

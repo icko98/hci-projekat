@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZdravoHospital.Windows;
 
 namespace ZdravoHospital.Pages
 {
@@ -25,14 +26,19 @@ namespace ZdravoHospital.Pages
         public ObservableCollection<Medication> nMeds;
         public static Medication selectedMed { get; set; }
         private addRep adr;
-        public addPerscription(addRep addrep)
+        private DoctorWindow dww;
+        public addPerscription(addRep addrep, DoctorWindow dw)
         {
             InitializeComponent();
             this.DataContext = this;
             nMeds = Medlists.Instance.getCmedication();
             adr = addrep;
+            dww = dw;
+            dww.windowLabel.Content = "Add medication";
+            
             medsTable.ItemsSource = null;
             medsTable.ItemsSource = nMeds.ToList();
+           
 
         }
 

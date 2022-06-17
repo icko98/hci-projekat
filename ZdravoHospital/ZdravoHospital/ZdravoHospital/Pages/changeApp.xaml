@@ -8,16 +8,29 @@
       Title="changeApp" Width="300" Height="334">
 
     <Grid>
-        <Label FontSize="20" Content="PatientId" HorizontalAlignment="Left" Margin="12,72,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57"/>
-        <Label FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Margin="30,160,0,0"/>
-        <Label FontSize="20" Content="Duration" HorizontalAlignment="Left" Margin="20,218,0,0" VerticalAlignment="Top" Height="50" Width="116"/>
-        <TextBox x:Name="PId" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="158,70,0,0" />
-        <TextBox x:Name="Duration" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="155,216,0,0" />
-        <Button Content="No" HorizontalAlignment="Left" Margin="12,273,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Doc_N"/>
-        <Button Content="Yes" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="173,274,0,0" VerticalAlignment="Top" Width="101" Height="50" Click="Button_Doc_Y"/>
-        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" Margin="152,148,0,0" VerticalAlignment="Top" Height="54" Width="137" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE"/>
-        <TextBox x:Name="Id" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="158,0,0,0" />
-        <Label FontSize="20" Content="Id" HorizontalAlignment="Left" Margin="26,0,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57"/>
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="PatientId" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57"/>
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Margin="14,154,0,0"/>
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Duration" HorizontalAlignment="Left" Margin="14,198,0,0" VerticalAlignment="Top" Height="50" Width="116"/>
+        <TextBox x:Name="PId" Background="#C7D36F" Foreground="#FFFCF9C6" IsReadOnly = "True" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="174,105,0,0" />
+        <TextBox x:Name="Duration" Background="#C7D36F" Foreground="#FFFCF9C6" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="173,205,0,0" Text="" />
+        <Button Content="Revert changes" HorizontalAlignment="Left" Background="#FFA01818" Foreground="#FCF9C6" Margin="12,260,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Doc_N">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Confirm changes" x:Name="ButtonYes" HorizontalAlignment="Left" Margin="188,260,0,0" VerticalAlignment="Top" Width="101" Background="#FF9EB23B" Height="50" Foreground="#FCF9C6" Click="Button_Doc_Y">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" Background="#C7D36F" Foreground="#FF9EB23B" Margin="173,153,0,0" VerticalAlignment="Top" Height="42" Width="117" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE"/>
+        <TextBox x:Name="Id" HorizontalAlignment="Left" IsReadOnly = "True" Background="#C7D36F" Foreground="#FFFCF9C6" Height="37" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="174,56,0,0" />
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Id" HorizontalAlignment="Left" Margin="14,56,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57"/>
+        <Label Foreground="#FF191D03" FontSize="22" Content="Change an appointment" HorizontalAlignment="Left" Margin="18,1,0,0" VerticalAlignment="Top" Height="50" Width="271" RenderTransformOrigin="-0.057,0.57"/>
 
     </Grid>
 </Page>

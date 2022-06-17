@@ -27,6 +27,7 @@ namespace ZdravoHospital.Pages
         {
             this.returnWindow = returnWindow;
             this.mainWin = main;
+            mainWin.windowLabel.Content = "Delete appointment";
             InitializeComponent();
         }
         private void Button_Click_N(object sender, RoutedEventArgs e)

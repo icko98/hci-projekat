@@ -30,6 +30,7 @@ namespace ZdravoHospital.Pages
             InitializeComponent();
             this.DataContext = this;
             Model.App xap = DocMenu.SelectedApp;
+            mainWin.windowLabel.Content = "Update an appointment";
             PId.Text = xap.PatientID;
             Duration.Text = xap.Duration.ToString();
             Id.Text = xap.Id.ToString();

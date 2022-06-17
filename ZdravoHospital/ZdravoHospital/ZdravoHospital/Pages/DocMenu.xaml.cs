@@ -30,7 +30,9 @@ namespace ZdravoHospital.Pages
             InitializeComponent();
             doctorWindow = WINDOW;
             this.DataContext = this;
+            doctorWindow.windowLabel.Content = "Appointments";
             Xapps = new ObservableCollection<Model.App>(appController.GetAll());
+            
             refreshAppTable();
         }
         public static AppController appController = new AppController();
@@ -96,11 +98,7 @@ namespace ZdravoHospital.Pages
 
        
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Vac vac = new Vac();
-            doctorWindow.frejm.Content = vac;
-        }
+        
 
         private void Button_Click_meds(object sender, RoutedEventArgs e)
         {

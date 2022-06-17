@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZdravoHospital.Windows"
         mc:Ignorable="d"
-        Title="" Height="444" Width="322">
-    <Grid Margin="0,0,0,0">
+        Title="" Height="450" Width="320" Background="#FCF9C6">
+    <Grid Margin="0,0,0,0" >
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -14,9 +16,59 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Name ="btn1" Content="Apps" HorizontalAlignment="Left" Height="51" Margin="0,35,0,0" Grid.Row="4" VerticalAlignment="Top" Width="135" Click="btn1_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="51" Margin="186,35,0,0" Grid.Row="4" VerticalAlignment="Top" Width="134"/>
-        <Frame Name="frejm" Content="" Margin="0,0,0,0" Grid.RowSpan="5" NavigationUIVisibility="Hidden"/>
+        <Rectangle HorizontalAlignment="Center" Height="45" Margin="0,42,0,0" Stroke="Black" VerticalAlignment="Top" Width="322" Fill="#FFE0DECA" Grid.Row="4"/>
+        <Button x:Name ="btn1" HorizontalAlignment="Left" Margin="28,49,0,3" Grid.Row="4" Width="58" Click="btn1_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/Windows/icons8-back-50.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="25" Margin="130,53,0,0" Grid.Row="4" VerticalAlignment="Top" Width="56" Click="Button_Click_1" Background="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.364"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+        <Frame x:Name="frejm" Content="" Margin="0,50,0,50" Grid.RowSpan="5" NavigationUIVisibility="Hidden" Background="#FCF9C6" Grid.ColumnSpan="3"/>
+        <Rectangle HorizontalAlignment="Center" Height="64" Margin="0,-14,0,0" Stroke="Black" VerticalAlignment="Top" Width="322" Fill="#9EB23B"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="57" Click="Button_Click" Margin="0,-3,0,0">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/Windows/icons8-menu-24.png"/>
+            </Button.Background>
+
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="35" Margin="235,49,0,0" Grid.Row="4" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.172"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="/Windows/icons8-menu-24.png"/>
+            </Button.Background>
+        </Button>
+        <Label Name="windowLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="22" Margin="62,4,0,0" Width="217"/>
 
 
     </Grid>

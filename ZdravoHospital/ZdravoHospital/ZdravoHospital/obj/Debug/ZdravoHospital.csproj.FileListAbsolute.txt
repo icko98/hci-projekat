@@ -452,3 +452,5 @@ C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospita
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\addPerscription.baml
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\MainMenu.g.cs
 C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\MainMenu.baml
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\xd.g.cs
+C:\Users\Ilija\Desktop\SIMSproj - Copy\hci-projekat\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Pages\xd.baml

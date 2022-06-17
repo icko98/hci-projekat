@@ -5,10 +5,10 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ZdravoHospital.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450"
+      Height="350"
       Title="DocMenu" Width="300">
 
-    <Grid Margin="0,0,0,81">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -16,30 +16,56 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <DataGrid Name="appTable" ItemsSource="{Binding Path=Xapps, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedApp, Mode=TwoWay}" ColumnWidth="*" Height="315" Margin="10,19,2,0" VerticalAlignment="Top"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" Grid.Row="1">
+        <DataGrid Name="appTable" ItemsSource="{Binding Path=Xapps, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedApp, Mode=TwoWay}" ColumnWidth="*" Background="#C7D36F" Foreground="#FCF9C6" Height="214" Margin="6,19,10,0" VerticalAlignment="Top" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" Grid.Row="1" Grid.RowSpan="4" RowBackground="#FFC7D36F">
+            <DataGrid.Resources>
+                <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#9EB23B" />
+                </Style>
+            </DataGrid.Resources>
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+
                 <DataGridTextColumn Header="PatientID" Binding="{Binding PatientID}" />
                 <DataGridTextColumn Header="Date" Binding="{Binding Dt}"/>
                 <DataGridTextColumn Header="Duration" Binding="{Binding Duration}"/>
 
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="183,10,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_DAdd" Height="37"/>
-        <Button Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Click="Button_Click_DEdit" Height="37" Margin="68,10,0,0"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="240,-8,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click_DDelete" Height="36"/>
-        <Button Content="File" HorizontalAlignment="Center" Margin="0,9,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_File" Height="37" RenderTransformOrigin="0.49,0.434">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.577"/>
-                    <TranslateTransform X="0.023" Y="-0.005"/>
-                </TransformGroup>
-            </Button.RenderTransform>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="6,49,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_DAdd" Foreground="#FCF9C6" Background="#FF9EB23B" Height="37" Grid.RowSpan="2">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
         </Button>
-        <Button Content="Vacation" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Click="Button_Click_1" Height="37" Margin="6,10,0,0"/>
-        <Button Content="meds" HorizontalAlignment="Left" Margin="240,33,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click_meds" Height="36"/>
+        <Button Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Foreground="#FCF9C6" Background="#EF9F9F" Click="Button_Click_DEdit" Height="37" Margin="220,49,0,0" Grid.RowSpan="2">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Delete" Background="#FFA01818" Foreground="#FCF9C6" HorizontalAlignment="Left" Margin="75,49,0,0" VerticalAlignment="Top" Width="65" Click="Button_Click_DDelete" Height="36" Grid.RowSpan="2">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="File" HorizontalAlignment="Left" Margin="150,49,0,0" Foreground="#FCF9C6" Background="#827397" VerticalAlignment="Top" Width="65" Click="Button_Click_File" Height="37" RenderTransformOrigin="0.49,0.434" Grid.RowSpan="2">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Button za novu f" HorizontalAlignment="Left" Margin="94,28,0,0" Grid.Row="4" VerticalAlignment="Top" Height="32" Width="90">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="       Schedule for today" HorizontalAlignment="Center" VerticalAlignment="Top" Width="293" Height="36" FontSize="22"/>
 
 
     </Grid>

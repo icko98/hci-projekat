@@ -5,12 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ZdravoHospital.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="330" d:DesignWidth="300"
+      Height="330" Width="300"
       Title="MainMenu">
 
     <Grid>
-        <Button Content="Test" HorizontalAlignment="Center" VerticalAlignment="Top" Height="106" Width="152" Click="Button_Click" Margin="0,37,0,0"/>
-        <Button Content="meds" HorizontalAlignment="Left" Margin="74,191,0,0" VerticalAlignment="Top" Height="105" Width="122" Click="Button_Click_1"/>
+        <Button Content="My Schedule" HorizontalAlignment="Left" Foreground="#FCF9C6" Background="#827397" VerticalAlignment="Top" Height="110" Width="140" Click="Button_Click" Margin="7,49,0,0">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Medication" HorizontalAlignment="Left" Foreground="#FCF9C6" Background="#FF9EB23B" VerticalAlignment="Top" Height="110" Width="140" Click="Button_Click_1" Margin="8,176,0,0">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Vacation" HorizontalAlignment="Left" Background="#FFA01818" Foreground="#FCF9C6"  Margin="153,176,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="110" Width="140">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Appointment" HorizontalAlignment="Left" Foreground="#FCF9C6" Background="#EF9F9F" Margin="152,49,0,0" VerticalAlignment="Top" Height="110" Width="140" Click="Button_Click_3">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Page>

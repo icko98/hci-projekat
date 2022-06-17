@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZdravoHospital.Windows;
 
 namespace ZdravoHospital.Pages
 {
@@ -27,13 +28,15 @@ namespace ZdravoHospital.Pages
         public static Medication SelectedMed { get; set; }
         public static Medication SelectedMed2 { get; set; }
 
-
-        public Meds()
+        private DoctorWindow dww;
+        public Meds(DoctorWindow dw)
         {
             InitializeComponent();
             this.DataContext = this;
             TBAmedication = Medlists.Instance.getTBAmedication();
             CMedication = Medlists.Instance.getCmedication();
+            dww = dw;
+            dww.windowLabel.Content = "Medication";
 
             refreshTables();
         }

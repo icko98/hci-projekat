@@ -9,12 +9,23 @@
       Title="addPerscription">
 
     <Grid>
-        <DataGrid Name="medsTable" ItemsSource="{Binding Path=nMeds , Mode=TwoWay}" SelectedItem="{Binding Path=selectedMed, Mode=TwoWay}" Margin="5,10,5,176">
+        <DataGrid Name="medsTable" ItemsSource="{Binding Path=nMeds , Mode=TwoWay}" SelectedItem="{Binding Path=selectedMed, Mode=TwoWay}" Margin="5,10,5,176" Foreground="#FCF9C6" Background="#C7D36F" HeadersVisibility="All" RowBackground="#FFC7D36F"  AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" ColumnWidth="*">
+            <DataGrid.Resources>
+                <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#9EB23B" />
+                </Style>
+            </DataGrid.Resources>
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Add medication" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Height="41" Width="194" Click="Button_Click"/>
+        <Button Content="Add medication to report" Foreground="#FCF9C6" Background="#FF9EB23B" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Height="41" Width="194" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Page>

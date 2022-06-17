@@ -21,13 +21,26 @@
 
 
         </Grid.RowDefinitions>
-        <Label FontSize="20" Content="PatientId" HorizontalAlignment="Left" Margin="8,28,0,0" VerticalAlignment="Top" Height="50" Width="132" RenderTransformOrigin="-0.057,0.57" Grid.ColumnSpan="2"/>
-        <Label FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Grid.Row="1" Margin="10,30,0,0"/>
-        <Label FontSize="20" Content="Duration" HorizontalAlignment="Left" Margin="16,0,0,0" VerticalAlignment="Center" Height="50" Width="116" Grid.Row="2" Grid.ColumnSpan="2"/>
-        <TextBox Name="PId" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Grid.ColumnSpan="2" Margin="44,28,0,0" Grid.Column="1" />
-        <TextBox Name="Duration" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" VerticalAlignment="Center" Width="145" Grid.Row="2" Grid.ColumnSpan="2" Margin="46,0,0,0" Grid.Column="1" />
-        <Button Content="No" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="99" Height="50" Click="ButN"/>
-        <Button Content="Yes" Name="ButtonYes" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="101" Grid.Column="2" Height="50" Click="ButY"/>
-        <DatePicker Name ="nzm" HorizontalAlignment="Left" Margin="44,25,0,0" Grid.Row="1" VerticalAlignment="Top" Height="63" Width="156" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label FontSize="20" Content="PatientId" HorizontalAlignment="Left" Margin="8,65,0,0" VerticalAlignment="Top" Height="37" Width="132" RenderTransformOrigin="-0.057,0.57" Grid.ColumnSpan="2" Foreground="#FF9EB23B" Grid.RowSpan="2"/>
+        <Label FontSize="20" Foreground="#FF9EB23B" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Grid.Row="1" Margin="10,43,0,0" Grid.RowSpan="2"/>
+        <Label FontSize="20" Foreground="#FF9EB23B" Content="Duration" HorizontalAlignment="Left" Margin="8,20,0,0" VerticalAlignment="Top" Height="46" Width="101" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <TextBox Name="PId" Background="#C7D36F" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Grid.ColumnSpan="2" Margin="44,65,0,0" Grid.Column="1" FontSize="20" Foreground="#FFFCF9C6" Grid.RowSpan="2" />
+        <TextBox Name="Duration" Background="#C7D36F" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" VerticalAlignment="Center" Width="144" Grid.Row="2" Grid.ColumnSpan="2" Margin="45,0,0,0" Grid.Column="1" FontSize="20" Foreground="#FFFCF9C6" />
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="10,84,0,0" Grid.Row="2" VerticalAlignment="Top" Width="99" Height="50" Click="ButN" Background="#FFA01818" Foreground="#FCF9C6" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Create" Name="ButtonYes" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="101" Foreground="#FCF9C6" Grid.Column="1" Height="50" Click="ButY" Background="#FF9EB23B" Grid.ColumnSpan="2" Margin="89,84,0,0" Grid.RowSpan="2" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DatePicker Name ="nzm" Background="#C7D36F" HorizontalAlignment="Left" Margin="44,46,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="145" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2"/>
+        <Label FontSize="22" Foreground="#FF191D03" Content="Schedule a new appointment" HorizontalAlignment="Left" VerticalAlignment="Center" Height="85" Width="300" RenderTransformOrigin="0.446,1.891" Margin="8,0,0,0" Grid.ColumnSpan="3"/>
     </Grid>
 </Page>

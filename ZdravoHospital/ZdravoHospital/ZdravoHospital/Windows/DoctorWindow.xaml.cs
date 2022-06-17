@@ -21,6 +21,7 @@ namespace ZdravoHospital.Windows
             this.DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterOwner;
             frejm.Content = new MainMenu(this);
+            
 
 
         }
@@ -34,7 +35,10 @@ namespace ZdravoHospital.Windows
             }
             return windowInst;
         }
-
+        public void getTitle(string str1)
+        {
+            this.windowLabel.Content = str1;
+        }
         public void refresh()
         {
             //frejm.Content = new DocMenu();
@@ -50,7 +54,24 @@ namespace ZdravoHospital.Windows
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            frejm.Content = new DocMenu(this);
+            if (frejm.NavigationService.CanGoBack)
+            {
+                frejm.NavigationService.GoBack();
+            }
+            else
+            {
+                MessageBox.Show("No entries in back navigation history.");
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            frejm.Content = new xd(this);
         }
     }
 }

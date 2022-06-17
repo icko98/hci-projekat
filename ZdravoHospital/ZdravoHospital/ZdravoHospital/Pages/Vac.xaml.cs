@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZdravoHospital.Windows;
 
 namespace ZdravoHospital.Pages
 {
@@ -24,11 +25,15 @@ namespace ZdravoHospital.Pages
     {
         private VacController vc = new VacController();
         public Model.Vac vac;
-        public Vac()
+
+        private DoctorWindow dww;
+        public Vac(DoctorWindow dw)
         {
             InitializeComponent();
             this.DataContext = this;
             vac = vc.GetById(User.UserName);
+            dww = dw;
+            dww.windowLabel.Content = "Vacation";
             if (vac != null)
             {
                 name.Text = User.UserName;

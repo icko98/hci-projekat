@@ -35,11 +35,13 @@ namespace ZdravoHospital.Pages
             Medlists.Instance.AddToTBAmedication(new Medication("2", "Insulin"));
             Medlists.Instance.AddToTBAmedication(new Medication("3", "Andol"));
             Medlists.Instance.AddToTBAmedication(new Medication("4", "Bromazepam"));
+           
 
             Medlists.Instance.AddToCmedication(new Medication("1", "Nesto"));
             Medlists.Instance.AddToCmedication(new Medication("2", "Lek"));
             Medlists.Instance.AddToCmedication(new Medication("3", "Patozin"));
             Medlists.Instance.AddToCmedication(new Medication("4", "Smetorin"));
+            DoctorWindow.windowLabel.Content = "Menu";
 
 
 
@@ -54,7 +56,17 @@ namespace ZdravoHospital.Pages
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            DoctorWindow.frejm.Content = new Meds();
+            DoctorWindow.frejm.Content = new Meds(DoctorWindow);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Vac(DoctorWindow));
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new File("2182246932", DoctorWindow));
         }
     }
 }

@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZdravoHospital.Windows;
 
 namespace ZdravoHospital.Pages
 {
@@ -28,12 +29,16 @@ namespace ZdravoHospital.Pages
         File dfjl;
         public ObservableCollection<Medication> Xpers;
         public static Medication SelectedMed { get; set; }
-        public addRep(Patient modpat, File fajl)
+        private DoctorWindow dww;
+        public addRep(Patient modpat, File fajl, DoctorWindow dw)
         {
             InitializeComponent();
             this.DataContext = this;
             xpat = modpat;
             dfjl = fajl;
+            dww = dw;
+            dww.windowLabel.Content = "Add new report";
+            
             Xpers = new ObservableCollection<Medication>();
             refreshTables();
 
@@ -66,7 +71,7 @@ namespace ZdravoHospital.Pages
 
         private void Button_Doc_add(object sender, RoutedEventArgs e)
         {
-           addPerscription addper = new addPerscription(this);
+           addPerscription addper = new addPerscription(this, dww);
            this.NavigationService.Navigate(addper);
         }
     }

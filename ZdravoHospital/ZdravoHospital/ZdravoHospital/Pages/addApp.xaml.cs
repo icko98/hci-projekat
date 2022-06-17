@@ -28,6 +28,7 @@ namespace ZdravoHospital.Pages
             this.returnWindow = returnWindow;
             this.mainWin = main;
             InitializeComponent();
+            mainWin.windowLabel.Content = "New Appointment";
         }
 
         private void ButN(object sender, RoutedEventArgs e)
@@ -36,11 +37,18 @@ namespace ZdravoHospital.Pages
         }
         private void ButY(object sender, RoutedEventArgs e)
         {
-            DocMenu.appController.Create(new Model.App(PId.Text, nzm.SelectedDate.Value, Int32.Parse(Duration.Text)));
-            // DocMenu.GetDoctorWindow().refreshAppTable();
-            returnWindow = new DocMenu(mainWin);
-            mainWin.frejm.Content = returnWindow;
-
+            bool isNum = int.TryParse(Duration.Text, out _);
+            if (isNum == true)
+            {
+                DocMenu.appController.Create(new Model.App(PId.Text, nzm.SelectedDate.Value, Int32.Parse(Duration.Text)));
+                // DocMenu.GetDoctorWindow().refreshAppTable();
+                returnWindow = new DocMenu(mainWin);
+                mainWin.frejm.Content = returnWindow;
+            }
+            else
+            {
+                MessageBox.Show("Duration must be a number!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

@@ -9,19 +9,43 @@
       Title="addRep">
 
     <Grid>
-        <Label FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Margin="10,0,0,0"/>
-        <Label FontSize="20" Content="Description" HorizontalAlignment="Left" Margin="0,63,0,0" VerticalAlignment="Top" Height="50" Width="116"/>
-        <TextBox x:Name="Desc" HorizontalAlignment="Left" Height="76" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Margin="107,50,0,0" />
-        <Button Content="No" HorizontalAlignment="Right" Margin="0,227,115,0" VerticalAlignment="Top" Width="78" Height="21" Click="Button_Doc_N"/>
-        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="183" RenderTransformOrigin="0.199,0.651" FirstDayOfWeek="Wednesday" Text="SELE" Margin="107,0,0,0"/>
-        <Button Content="Yes" x:Name="ButtonYes" Margin="203,224,10,0" VerticalAlignment="Top" Height="26" Click="Button_Doc_Y" RenderTransformOrigin="0.508,-0.439"/>
-        <DataGrid Name="persTable" ItemsSource="{Binding Path=Xpers, Mode=TwoWay}" Margin="107,142,10,108" ColumnWidth="*">
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="64" RenderTransformOrigin="0.446,1.891" Margin="10,10,0,0"/>
+        <Label Foreground="#FF9EB23B" FontSize="20" Content="Description" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Height="36" Width="116"/>
+        <TextBox x:Name="Desc" Background="#C7D36F" Foreground="#FFFCF9C6" Width="144"  Height="74" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="146,57,0,0" />
+        <Button Content="Delete report" HorizontalAlignment="Left" Background="#FFA01818" Margin="10,262,0,0" VerticalAlignment="Top" Foreground="#FCF9C6" Width="101" Height="50" Click="Button_Doc_N">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DatePicker x:Name ="nzm" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="144" RenderTransformOrigin="0.199,0.651" Background="#C7D36F" FirstDayOfWeek="Wednesday" Text="SELE" Margin="146,10,0,0" Foreground="#FF9EB23B"/>
+        <Button Content="Confirm report" x:Name="ButtonYes" Margin="189,262,10,0" VerticalAlignment="Top" Width="101" Background="#FF9EB23B" Height="50" Foreground="#FCF9C6" Click="Button_Doc_Y" RenderTransformOrigin="0.508,-0.439">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DataGrid Name="persTable" ItemsSource="{Binding Path=Xpers, Mode=TwoWay}" Margin="146,129,10,97"  Background="#C7D36F" Foreground="#FCF9C6" Width="144" Height="74" RowBackground="#FFC7D36F" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" ColumnWidth="*">
+            <DataGrid.Resources>
+                <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#9EB23B" />
+                </Style>
+            </DataGrid.Resources>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Label FontSize="20" Content="Perscriptions" HorizontalAlignment="Left" Margin="-12,142,0,0" VerticalAlignment="Top" Height="50" Width="122"/>
-        <Button Content="Add new medication" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="82" Height="46" Click="Button_Doc_add"/>
+        <Label  Foreground="#FF9EB23B" FontSize="20" Content="Perscriptions" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Height="50" Width="122"/>
+        <Button Content="Add new medication" HorizontalAlignment="Left" Background="#FF9EB23B" Height="50" Foreground="#FCF9C6" Margin="12,168,0,0" VerticalAlignment="Top" Width="112"  Click="Button_Doc_add">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label  Foreground="#8CC0DE" FontSize="12" Content="Press the &quot;Add new medication&quot; button to select &#xD;&#xA;new medication to add to the report." HorizontalAlignment="Center" Margin="0,218,0,0" VerticalAlignment="Top" Height="50" Width="278"/>
 
     </Grid>
 </Page>
